@@ -87,7 +87,7 @@ inquirer
 }) =>{
     const template = `
     #Title:
-     ${title}
+    ${title}
     ##Description:
     ${Description}
     ${Description1}
@@ -104,8 +104,8 @@ inquirer
     ##Badges:
     ${Badges}`;
 
-    fs.writeFile('readme.md', template, function(err){
-        if(err) throw err;
+    fs.writeFile('./../../../../../Desktop/Readme from node/readme.md', template, function(err){
+       err ? console.error(err) : console.log("Your File Has Been Created");
     });
     
 })

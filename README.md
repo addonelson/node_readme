@@ -9,7 +9,7 @@
     ##Installation:
     To install and use this project you will need node.js and inquirer npm in order to get this to work
     ##Usage:
-    Once inquirer and node.js are installed open VScode and right click, open terminal. type node index.js and the questions will launch. Simply answer the questions.
+    Once inquirer and node.js are installed open VScode and right click, open terminal. Type "node index.js" press enter and the questions will launch. Simply answer the questions. If you would like to have the file saved somewhere other than my chosen path you must put that in on line 107.
     ##Credits:
     For this project I used Udemy.com and https://www.npmjs.com/package/inquirer to reasearch how to accomplish this task. 
     ##License:
