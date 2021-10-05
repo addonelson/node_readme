@@ -141,7 +141,7 @@ ${Badges}
 https://github.com/${Username}/node_readme
 ${Email}`;
 
-    fs.writeFile('./generated readme/readme', template, function(err){
+    fs.writeFile('./generated_readme/readme.md', template, function(err){
        err ? console.error(err) : console.log("Your File Has Been Created");
     });
     
